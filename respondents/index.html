@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PollSensei Respondents</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    "
+  >
+    <!-- Main container table -->
+    <table
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      width="100%"
+      style="background-color: #f4f4f4"
+    >
+      <tr>
+        <td align="center" style="padding: 20px 0">
+          <!-- Email content table -->
+          <table
+            role="presentation"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            width="600"
+            style="
+              max-width: 600px;
+              background-color: #ffffff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <!-- Header Banner -->
+            <tr>
+              <td
+                style="
+                  padding: 0;
+                  background: linear-gradient(
+                    135deg,
+                    #8b5cf6 0%,
+                    #7c3aed 50%,
+                    #6d28d9 100%
+                  );
+                "
+              >
+                <img
+                  src="../assets/pollsensei.jpg"
+                  alt="PollSensei - Create End-to-End Surveys"
+                  style="
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    border: none;
+                  "
+                />
+              </td>
+            </tr>
+
+            <!-- Main Content -->
+            <tr>
+              <td style="padding: 40px 30px">
+                <h1
+                  style="
+                    margin: 0 0 20px 0;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #1f2937;
+                    line-height: 1.3;
+                  "
+                >
+                  Hi {first_name},
+                </h1>
+
+                <p
+                  style="
+                    margin: 0 0 30px 0;
+                    font-size: 16px;
+                    color: #4b5563;
+                    line-height: 1.6;
+                  "
+                >
+                  You have been selected to fill a QuickSurvey
+                  <strong>“{survey_title}”</strong>
+                </p>
+
+                <p
+                  style="
+                    margin: 0 0 30px 0;
+                    font-size: 16px;
+                    color: #4b5563;
+                    line-height: 1.6;
+                  "
+                >
+                  Note that this survey must be completed in the next
+                  {survey_duration}. Once the time elapses, you won’t be able to
+                  fill the form. Note that you will get a 20% increase for
+                  completing this survey.
+                </p>
+
+                <!-- CTA Button -->
+                <table
+                  role="presentation"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                >
+                  <tr>
+                    <td
+                      style="
+                        border-radius: 6px;
+                        background: linear-gradient(
+                          135deg,
+                          #5b03b2 0%,
+                          #9d50bb 100%
+                        );
+                      "
+                      align="center"
+                    >
+                      <a
+                        href="{survey_link}"
+                        style="
+                          display: inline-block;
+                          padding: 15px 30px;
+                          font-family: Arial, sans-serif;
+                          font-size: 16px;
+                          font-weight: bold;
+                          color: #ffffff;
+                          text-decoration: none;
+                          border-radius: 6px;
+                          min-width: 120px;
+                        "
+                      >
+                        Start Survey
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <p
+                  style="
+                    margin: 30px 0 0 0;
+                    font-size: 14px;
+                    color: #6b7280;
+                    line-height: 1.6;
+                  "
+                >
+                  If you have any questions or need help please reach out to the
+                  support with this email-
+                  <a
+                    href="mailto:support@oaksintelligence.co"
+                    style="color: #3b82f6; text-decoration: none"
+                    >support@oaksintelligence.co</a
+                  >
+                </p>
+
+                <div
+                  style="
+                    margin-top: 30px;
+                    padding-top: 20px;
+                    border-top: 1px solid #e5e7eb;
+                  "
+                >
+                  <p
+                    style="
+                      margin: 0 0 5px 0;
+                      font-size: 14px;
+                      color: #374151;
+                      font-weight: 500;
+                    "
+                  >
+                    Always rooting for your success
+                  </p>
+                  <p style="margin: 0; font-size: 14px; color: #6b7280">
+                    <strong>Jake at oaksintelligence</strong>
+                  </p>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                style="
+                  padding: 30px;
+                  background-color: #f9fafb;
+                  border-top: 1px solid #e5e7eb;
+                "
+              >
+                <p
+                  style="
+                    margin: 0 0 15px 0;
+                    font-size: 14px;
+                    color: #6b7280;
+                    line-height: 1.6;
+                  "
+                >
+                  Questions or faq? Contact us at
+                  <a
+                    href="mailto:faq@oaksintelligence.co"
+                    style="color: #3b82f6; text-decoration: none"
+                    >faq@oaksintelligence.co</a
+                  >. If you'd rather not receive this kind of email, Don't want
+                  any more emails from oaksintelligence?
+                  <a
+                    href="{unsubscribe_link}"
+                    style="color: #3b82f6; text-decoration: none"
+                    >Unsubscribe</a
+                  >.
+                </p>
+
+                <p
+                  style="
+                    margin: 0 0 20px 0;
+                    font-size: 14px;
+                    color: #6b7280;
+                    line-height: 1.6;
+                  "
+                >
+                  23, Iwaya Road, Onike, Lagos Nigeria<br />
+                  © 2027 Oaksintelligence
+                </p>
+
+                <!-- Social Media Icons -->
+                <table
+                  role="presentation"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                >
+                  <tr>
+                    <td style="padding-right: 15px">
+                      <a href="{twitter_link}" style="display: inline-block">
+                        <img
+                          src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg"
+                          alt="Twitter"
+                          style="width: 24px; height: 24px; filter: invert(0.4)"
+                        />
+                      </a>
+                    </td>
+                    <td style="padding-right: 15px">
+                      <a href="{facebook_link}" style="display: inline-block">
+                        <img
+                          src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg"
+                          alt="Facebook"
+                          style="width: 24px; height: 24px; filter: invert(0.4)"
+                        />
+                      </a>
+                    </td>
+                    <td>
+                      <a href="{instagram_link}" style="display: inline-block">
+                        <img
+                          src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg"
+                          alt="Instagram"
+                          style="width: 24px; height: 24px; filter: invert(0.4)"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
